@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal Spec Writer"
+  short_description: "Compile safe /goal specs and handoffs."
+  default_prompt: "Use $goal-spec-writer to convert this task brief into a safe, bounded spec with a ~/.tasks task folder, $goal-runner handoff, and session transfer prompts."
