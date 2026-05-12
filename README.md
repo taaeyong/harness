@@ -17,7 +17,7 @@ AI가 코드를 쓰는 시대에 사람의 역할은 "잘 짜기"에서 "잘 일
 | ① 정의 | `clarify`, `deep-interview` | `deep-interview` |
 | ② Spec | — | `goal-spec-writer` |
 | ③ 실행 | — | `goal-runner` |
-| ④ 검증 | `goal-code-review` | `deep-code-review` |
+| ④ 검증 | `goal-code-review` | `deep-code-review`, `x-pr`, `one-click-super-pr-omx` |
 | ⑤ 축적 | `wrap` | `wrap` |
 
 ## 설치
@@ -47,6 +47,8 @@ cd harness
 - **`goal-spec-writer`** — task brief를 goal-ready Codex `/goal` spec으로 변환
 - **`goal-runner`** — `~/.tasks/` task 폴더 spec을 실제 코드로 실행
 - **`deep-code-review`** — 브랜치 변경 깊은 리뷰. 의도·일관성·안전성까지
+- **`x-pr`** — 로컬 변경을 ready-for-review GitHub PR로 발행. PR 본문에 의도·변경·리스크·검증 흔적 자동 포함
+- **`one-click-super-pr-omx`** — PR 생성/업데이트 + CodeRabbit 리뷰 자동 수정 루프 (omx 플러그인 필요)
 - **`wrap`** — Claude 버전과 동일
 
 ## License

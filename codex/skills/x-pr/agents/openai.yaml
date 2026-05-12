@@ -1,0 +1,4 @@
+interface:
+  display_name: "X PR"
+  short_description: "Create ready AI-native pull requests."
+  default_prompt: "Create a ready-for-review pull request from the current working changes using the x-pr workflow."
